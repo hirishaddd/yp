@@ -1,0 +1,125 @@
+/* p {
+    font-family: "Space Grotesk", sans-serif;
+} */
+
+.body{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 196px 0 196px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__logo-text {
+    font-family:Chillax;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav__list-links
+{
+    display:flex;
+    column-gap: 40px;
+    flex-direction: row;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.nav__list-links-item>a{
+    color: white;
+}
+
+.nav__list-social {
+    display: flex;
+    flex-direction: row;
+    gap:16px
+}
+
+.section {
+    padding: 187px 167px 0 167px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.section__main-h{
+    text-align: center;
+}
+.word__main-h {
+    color: white;
+    font-size: 80px;
+    font-family:"Space Grotesk", sans-serif ;
+    font-weight: 500;
+    letter-spacing:2%;
+}
+
+#text-gardient-main-h{
+  background: linear-gradient(
+    90deg,
+    #EF3BFF 0%,
+    #ECBFBF 38%,
+    #5C24FF 76%,
+    #D94FD5 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__text {
+    color: white;
+    font-family:"Space Grotesk", sans-serif ;
+    font-size:20px;
+    letter-spacing: 0.72px;
+    text-align: center;
+    line-height: 33px;
+    font-weight:200;
+    padding-top: 18px;
+}
+
+.section__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 32px;
+}
+.btn {
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.btn>span
+{
+    display: inline-block;
+    padding: 22px 32px ;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#gardient-border{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 100px;
+
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(
+      90deg,
+      #EF3BFF 0%,
+      #ECBFBF 38%,
+      #5C24FF 76%,
+      #D94FD5 100%
+    ) border-box;
+
+}
