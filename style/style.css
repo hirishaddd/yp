@@ -2,9 +2,7 @@
     font-family: "Space Grotesk", sans-serif;
 } */
 
-.body{
-    min-height: 100vh;
-    max-width: 100vw;
+.body {
     background-color: black;
 }
 .nav {
@@ -40,16 +38,19 @@
     gap:16px
 }
 
-.section {
-    padding: 187px 167px 0 167px;
+.section__main {
+    padding: 0 167px 0 167px;
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 1;
 }
 
 .section__main-h{
     text-align: center;
+    margin-top: 187px;
 }
+
 .word__main-h {
     color: white;
     font-size: 80px;
