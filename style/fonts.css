@@ -1,23 +1,28 @@
 @font-face {
-  font-family: 'Chillax';
-  src: url('/fonts/Chillax-Regular.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Chillax';
-  src: url('/fonts/Chillax-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Chillax';
-  src: url('/fonts/Chillax-Medium.otf') format('opentype');
+  font-family: RadioCanadaBig;
+  src: url(fonts\RadioCanadaBig-Italic-VariableFont_wght.ttf);
+  font-style: italic;
   font-weight: 400;
+  format :("truetype");
+}
+@font-face {
+  font-family: RadioCanadaBig;
+  src: url(fonts\RadioCanadaBig-VariableFont_wght.ttf);
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;
+  format :("truetype");
+}
+@font-face {
+  font-family: SourseSerif4;
+  src: url(fonts\SourseSerif4-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+  font-weight: 400;
+  format :("truetype");
+}
+@font-face {
+  font-family: SourseSerif4;
+  src: url(fonts\SourseSerif4-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 400;
+  format :("truetype");
 }

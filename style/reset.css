@@ -12,8 +12,10 @@
 
 /* Links */
 
-a, a:link, a:visited  {
+a, a:link, a:visited, a:active ,.show  {
     text-decoration: none;
+	border: 0px;
+	outline: none;
 }
 
 a:hover  {
