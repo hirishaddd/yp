@@ -96,4 +96,5 @@ body {
 	width: 1366px;
 	display: flex;
   	margin: auto;
+	flex-direction: column;
 }
