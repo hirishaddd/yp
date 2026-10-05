@@ -5,10 +5,20 @@
   background-repeat: no-repeat;
   background-image: url(../img/header-img.png);
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 header>* {
   color: var(--color-white);
+}
+
+.header::before {
+  content: '';
+  inset: 0;
+  background: linear-gradient(90deg, var(--color-dark-grey) -6.88%, rgba(0, 0, 0, 0.00) 87.45%);
+  position: absolute;
+  z-index: -1;
 }
 
 .logo__text {
