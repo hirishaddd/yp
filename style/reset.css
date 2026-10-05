@@ -91,3 +91,9 @@ legend {
 input[type='file'] {
 	max-width: 100%;
 }
+
+body {
+	width: 1366px;
+	display: flex;
+  	margin: auto;
+}

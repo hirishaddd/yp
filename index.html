@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/fonts.css">
-    <link rel="stylesheet" href="style/style.css">
-    <style>
-
-        :root {
-            --bg-color:white;
-        }
-        body {
-            background-color: black;
-            display:grid;
-        }
-
-        body:has(input[type=checkbox]:checked) {
-            background-color: var(--bg-color);
-        }
-
-        @media (width<=768px) {
-            body:has(input[type=checkbox]:checked) {
-                background-color:red;
-        }
-    }
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style/fonts.css">
+  <link rel="stylesheet" href="../style/reset.css">
+  <link rel="stylesheet" href="../style/root.css">
+  <link rel="stylesheet" href="../style/style.css">
 </head>
-
 <body>
-    <input type="checkbox" name="" id="">
+  <header class="header">
+    <nav class="nav">
+      <sapn class="logo__text">Bean Scene</sapn>
+      <ul class="nav__list">
+        <li class="nav__list-item">Home</li>
+        <li class="nav__list-item">Menu</li>
+        <li class="nav__list-item">About Us</li>
+        <li class="nav__list-item">Contact US</li>
+      </ul>
+      <ul class="nav__list-sign">
+        <li class="nav__list-sign-item">Sing In</li>
+        <button class="btn">Sing Up</button>
+      </ul>
+    </nav>
+    <div class="header__info">
+      <p class="header__info-text">We’ve got your morning covered with</p>
+      <h1 class="header__heading-main">Coffee</h1>
+      <p class="header__info-text" id="normal">It is best to start your day with a cup of coffee. Discover the<br> best flavours coffee you will ever have. We provide the best <br>for our customers.</p>
+      <button class="btn">Order Now</button>
+    </div>
+  </header>
+  <main class="main">
+    
+  </main>
 </body>
 </html>

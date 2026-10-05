@@ -1,43 +1,104 @@
-.nav {
-    max-width: 375px;
-    display: grid;
-    margin: 20px;
-    justify-content: space-between;
-    padding-top:1px ;
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/header-img.png);
+  width: 100%;
 }
 
-.dropdown>.btn:active {
-    border: none;
-    outline: none;
+header>* {
+  color: var(--color-white);
 }
 
-.header{
-    padding-top: 60px;
-}
-.header__heading {
-    text-align: center;
-}
-.header__heading span:nth-child(1){
-    font-family: 'Source Serif Pro' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 100%;
-    text-align: center;
-    letter-spacing: -4%;
-    color: #000000;
+.logo__text {
+  font-family:var(--font-clicker);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin:21px 0px 0px 93px;
+  display: inline-block;
 }
 
-.header__heading span:nth-child(2) {
-    font-family: 'Radio Canada Big', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size:36px;
-    line-height: 100%;
-    text-align: center;
-    letter-spacing: -2%;
-    hanging-punctuation: first last;
-    color: #000000;
+.nav{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  align-items: baseline;
+  white-space: nowrap;
 }
 
+.nav__list {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 60px;
+  white-space: nowrap;
+  font-family:var(--font-playfair) ;
+}
 
+.nav__list-sign {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-template-rows: 1fr;
+  justify-content: end;
+  align-items: center;
+  column-gap:15px ;
+  white-space: nowrap;
+  margin:21px 93px 0px 0px;
+  font-family:var(--font-playfair);
+}
+
+.nav__list-sign-item {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: var(--bg-btn);
+  border-radius: var(--broder-radius);
+  box-shadow: var(--shadow-btn);
+  color: var(--color-dark-grey);
+  padding: 15px 27px;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__info {
+  margin: 183px 0 95px 93px;
+  display: grid;
+  justify-items: start;
+  grid-auto-columns: max-content;
+  grid-auto-rows: max-content;
+}
+
+.header__info-text {
+  color: #FFF;
+  font-family:var(--font-playfair);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__heading-main {
+  font-family:var(--font-clicker);
+  font-size: 220px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__info-text>#normal {
+  font-family:var(--font-playfair);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.header__info>.btn {
+  margin-top: 20px;
+}

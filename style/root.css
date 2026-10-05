@@ -1,0 +1,11 @@
+:root {
+    --font-playfair:"Playfair Display" , sans-serif;
+    --font-clicker:"Clicker Script" , sans-serif;
+    --bg-btn: #F9C06A;
+    --shadow-btn:0 6px 12px 0 rgba(249, 192, 106, 0.22);
+    --color-coffee: #603809;
+    --color-grey:#707070;
+    --color-white:white;
+    --color-dark-grey:#1E1E1E;
+    --broder-radius:24px;
+}
